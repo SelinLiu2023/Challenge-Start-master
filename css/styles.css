@@ -1,0 +1,85 @@
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+#footer, #cta, #pricing, #testimonials, #features, #title {
+  padding: 20px 10%;
+}
+
+#title {
+  overflow: hidden;
+}
+#title .navbar-brand {
+  font-size: 3rem;
+}
+#title button {
+  border-radius: 0;
+}
+#title .titleTextAndButtonContainer h1 {
+  font-size: 3rem;
+}
+#title .titleImageContainer img {
+  width: 250px;
+}
+@media (min-width: 992px) {
+  #title .titleImageContainer {
+    height: 300px;
+  }
+  #title .titleImageContainer img {
+    width: 250px;
+    transform: rotate(30deg);
+  }
+}
+
+#testimonials .carousel-inner {
+  background-color: #EF8172;
+}
+#testimonials .carousel-item {
+  height: 400px;
+}
+#testimonials .profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#testimonials .companyLogo {
+  width: 8%;
+}
+
+#pricing .priceCard {
+  width: 90%;
+  margin: 10px auto;
+}
+@media (max-width: 768px) {
+  #pricing .priceCard {
+    width: 70%;
+  }
+}
+
+#cta button {
+  margin: 0 10px;
+}
+@media (max-width: 768px) {
+  #cta button {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.x-bg-orange {
+  background-color: #EF8172;
+}
+
+.x-bg-pink {
+  background-color: #FF4C68;
+}
+
+.x-text-pink {
+  color: #FF4C68;
+}
+
+/*# sourceMappingURL=styles.css.map */

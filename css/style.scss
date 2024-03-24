@@ -1,0 +1,94 @@
+h1{
+    font-size: 3rem; 
+}
+h2{
+    font-size: 2.5rem; 
+}
+%sessionPadding{
+    padding: 20px 10%;
+}
+#title{
+    @extend %sessionPadding;
+    overflow: hidden;
+    .navbar-brand {
+        font-size: 3rem; 
+    }
+    button{
+        border-radius: 0;
+    }
+    .titleTextAndButtonContainer{
+        h1{
+            font-size: 3rem; 
+        }
+    }
+    .titleImageContainer {
+       img{
+            width: 250px;
+        }
+    }
+    @media (min-width: 992px) {
+        .titleImageContainer {
+            height: 300px;
+           img{
+                width: 250px;
+                transform: rotate(30deg);
+            }
+        }
+      }
+}
+#features{
+    @extend %sessionPadding;
+}
+#testimonials{
+    @extend %sessionPadding;
+    .carousel-inner{
+        background-color: #EF8172;
+    }
+    .carousel-item{
+        height: 400px;
+    }
+    .profileImg{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .companyLogo{
+        width: 8%;
+    }
+}
+#pricing{
+    @extend %sessionPadding;
+    .priceCard{
+        width: 90%;
+        margin: 10px auto;
+    }
+    @media (max-width: 768px) { 
+    .priceCard{
+        width: 70%;
+    }
+    }
+}
+#cta{
+    @extend %sessionPadding;
+    button{
+        margin: 0 10px;
+    }
+    @media (max-width: 768px) { 
+        button{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+#footer{
+    @extend %sessionPadding;
+}
+.x-bg-orange {
+    background-color: #EF8172;
+}
+.x-bg-pink {
+background-color:  #FF4C68;
+}
+.x-text-pink {
+color:  #FF4C68;
+}

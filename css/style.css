@@ -1,0 +1,31 @@
+.carousel-inner {
+  background-color: #EF8172;
+}
+
+#testimonials, #features, #title {
+  padding: 20px 15%;
+}
+
+#title {
+  overflow: hidden;
+}
+#title button {
+  border-radius: 0;
+}
+#title .titleImageContainer {
+  height: 300px;
+}
+#title .titleImageContainer img {
+  width: 250px;
+  transform: rotate(30deg);
+}
+
+#testimonials img {
+  width: 80px;
+}
+
+.x-bg-orange {
+  background-color: #EF8172 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
